@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile M</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav id="nav" class="nav">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <h3><a href="./index.html">موبایل M</a></h3>
+                    <button id="nav-btn" class="nav-btn">
+                        <i class="bi bi-list-nested"></i>
+                    </button>
+                </div>
+
+                <ul class="nav-links">
+                    <li class="daste_bandi">
+                        <a href="#">دسته بندی‌ها</a>
+                        <ul class="dropdown">
+                            <li><a href="#">برند های مختلف گوشی موبایل</a>
+                                <ul class="dropdown-1">
+                                    <li><a href="#">گوشی آیفون</a></li>
+                                    <li><a href="#">گوشی ساسونگ</a></li>
+                                    <li><a href="#">گوشی آنر</a></li>
+                                    <li><a href="#">گوشی هواوی</a></li>
+                                    <li><a href="#">گوشی شیائومی</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">گوشی بر اساس قیمت</a>
+                                <ul class="dropdown-1">
+                                    <li><a href="#">گوشی ارزان</a></li>
+                                    <li><a href="#">گوشی قسطی</a></li>
+                                    <li><a href="#">گوشی تا 2 میلیون تومان</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">گوشی بر اساس عملکرد</a>
+                                <ul class="dropdown-1">
+                                    <li><a href="#">گوشی گیمینگ</a></li>
+                                    <li><a href="#">گوشی 5G</a></li>
+                                    <li><a href="#">دکمه‌ای</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a href="./support.html">راهنما و پشتیبانی</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">درباره ما</a>
+                    </li>
+                </ul>
+
+                <div id="search" class="search">
+                    <div class="searchbox">
+                        <input type="text" class="input" placeholder="جستجو کنید...">
+
+                        <div class="searchbtn">
+                            <i class="bi bi-search"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn nav-btn-1">ورود | ثبت نام</button>
+            </div>
+        </nav>
+
+        <!-- Sidebar -->
+        <aside id="sidebar" class="sidebar">
+            <div class="navbar-header">
+                <button id="close-btn" class="close-btn-1">
+                    <i class="bi bi-x"></i>
+                </button>
+            </div>
+
+            <ul class="nav-item">
+                <li>
+                    <a href="./index.html" class="nav-link">
+                        <i class="bi bi-house-fill"></i>
+                        صفحه اصلی
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./about.html" class="nav-link">
+                        <i class="bi bi-info-circle-fill"></i>
+                        درباره ما
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#product" target="_blank" class="nav-link">
+                        <i class="bi bi-box-seam-fill"></i>
+                        محصولات
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./about.html" class="nav-link">
+                        <i class="bi bi-chat-right-dots-fill"></i>
+                        تماس با ما
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-search"></i>
+                        <input class="input_aside" type="search" placeholder="جستجو کنید...">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">
+                        <i class="bi bi-person-fill"></i>
+                        ورود | ثبت نام
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </header>
+
+    <main>
+        <!-- hero -->
+        <header class="header">
+            <div class="banner hero-center section-center">
+                <article class="hero-info">
+                    <h2>موبایل M</h2>
+                    <div class="underline"></div>
+                    <h4>خوش آمدید</h4>
+                    <a href="#product" class="btn hero-btn btn-banner">مشاهده محصولات</a>
+                </article>
+
+                <article class="hero-img">
+                    <img class="hero-photo" src="./img/Banner/mobile.jpg" alt="hero-img">
+                </article>
+            </div>
+        </header>
+        <div class="divider"></div>
+
+        <!-- feature -->
+        <section class="section-center features clearfix">
+            <article class="feature">
+                <span class="feature-icon">
+                    <i class="bi bi-android2"></i>
+                </span>
+                <h4 class="feature-title">گوشی اندروید</h4>
+                <p class="feature-text">حس لوکس و مدرن با گوشی های جدید</p>
+                <a href="#">
+                    <p class="feature-text-2">جزئیات بیشتر
+                        <i class="bi bi-chevron-left"></i>
+                    </p>
+                </a>
+            </article>
+
+            <article class="feature">
+                <span class="feature-icon">
+                    <i class="bi bi-headphones"></i>
+                </span>
+                <h4 class="feature-title">هدفون بلوتوثی</h4>
+                <p class="feature-text">انواع ایرپاد و هندزفری با قیمت فوق العاده</p>
+                <a href="#">
+                    <p class="feature-text-2">جزئیات بیشتر
+                        <i class="bi bi-chevron-left"></i>
+                    </p>
+                </a>
+            </article>
+
+            <article class="feature">
+                <span class="feature-icon">
+                    <i class="bi bi-modem"></i>
+                </span>
+                <h4 class="feature-title">اکسسوری</h4>
+                <p class="feature-text">انواع لوازم جانبی موبایل</p>
+                <a href="#">
+                    <p class="feature-text-2">جزئیات بیشتر
+                        <i class="bi bi-chevron-left"></i>
+                    </p>
+                </a>
+            </article>
+
+            <article class="feature">
+                <span class="feature-icon">
+                    <i class="bi bi-apple"></i>
+                </span>
+                <h4 class="feature-title">گوشی ios</h4>
+                <p class="feature-text">گوشی آیفون سری 13،14،15</p>
+                <a href="">
+                    <p class="feature-text-2">جزئیات بیشتر
+                        <i class="bi bi-chevron-left"></i>
+                    </p>
+                </a>
+            </article>
+        </section>
+
+        <!-- products -->
+        <section id="product" class="section-center">
+            <section class="section">
+                <section class="section-title">
+                    <h2>محصولات <span>موبایل M</span></h2>
+                    <div class="underline"></div>
+                </section>
+
+                <section class="section-center articles-center">
+                    <!-- iPhone -->
+                    <!-- 1 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/2023-8-23-13-12-57iPhone15-Pro-.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    iphone 13 promax
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل اپل مدل iphone 13 promax ظرفیت ۲۵۶ گیگابایت نات اکتیو JA</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('iphone 13 promax', 40000000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>40.000.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 2 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/2022-3-16-14-59-46pro-max-13-Blue.png" alt="">
+                            <p class="article-category">ریجستر نشده</p>
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    iphone 15 pro
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل اپل مدل Apple iPhone 15 Pro ظرفیت 512 گیگابایت</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('iphone 15 pro', 80000000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>80.000.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 3 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/2022-8-18-8-47-4iPhone-14-purple.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    iphone 14 plus
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p> گوشی موبایل اپل مدل Apple iPhone 14 Plus ظرفیت 512 گیگابایت</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('iphone 14 plus', 60000000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>60.000.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/iPhone12.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    iphone 12
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل اپل مدل Apple iPhone 12 ظرفیت 256 گیگابایت</p>
+                            <br>
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('iphone 12', 20000000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>20.000.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Android -->
+                    <!-- 1 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/Galaxy S24 Ultra.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    Galaxy S24 Ultra
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل سامسونگ مدل Galaxy S24 Ultra دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت
+                                - ویتنام</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('Galaxy S24 Ultra', 67000000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>67.000.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 2 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/Galaxy A55.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    Galaxy A55
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل سامسونگ مدل Galaxy A55 دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت -
+                                ویتنام</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('Galaxy A55', 23800000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>23.800.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 3 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/Galaxy S23 FE.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    Galaxy S23 FE
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل سامسونگ مدل Galaxy S23 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت -
+                                ویتنام</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('Galaxy S23 FE', 30100000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>30.100.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/Galaxy S21 FE 5G.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    Galaxy S21 FE 5G
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>گوشی موبایل سامسونگ مدل Galaxy S21 FE 5G دو سیم‌ کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت
+                                نسخه اسنپدراگون - اکتیو</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('Galaxy S21 FE 5G', 24700000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>24.700.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- headphones -->
+                    <!-- 1 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/AirPods Pro 2nd.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    AirPods Pro
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>هدفون بلوتوثی اپل مدل AirPods Pro 2nd Generation 2023 Type-C</p>
+                            <br>
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('AirPods Pro', 14600000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>14.600.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 2 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/Galaxy Buds FE.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    Galaxy Buds FE
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>هدفون بلوتوثی سامسونگ مدل Galaxy Buds FE</p>
+                            <br><br>
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('Galaxy Buds FE', 3490000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>3.490.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 3 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/T17.png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    T17
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>هدفون بلوتوثی کیو سی وای مدل T17</p>
+                            <br><br>
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('T17', 600000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>600.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4 -->
+                    <article class="article-card">
+                        <div class="article-img-container">
+                            <img class="article-img" src="./img/phone/هدست بلوتوثی QCY .png" alt="">
+                            <hr>
+                        </div>
+
+                        <div class="article-info">
+                            <div class="article-title">
+                                <h4>
+                                    هدست بلوتوثی QCY
+                                </h4>
+                                <p>موبایل M</p>
+                            </div>
+
+                            <p>هدست بلوتوثی QCY مدل H2 PRO دو گوشی، با رابط جک 3.5 میلی‌متری صدا و USB Type-C، مناسب
+                                برای کاربری عمومی</p>
+
+                            <div class="article-footer">
+                                <div class="product">
+                                    <button class="btn" onclick="addToCart('هدست بلوتوثی QCY', 4700000)">
+                                        <i class="bi bi-cart"></i>
+                                        خرید
+                                    </button>
+                                </div>
+                                <p>4.700.000 تومان</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- shop aside -->
+                    <div class="fab" onclick="toggleCart()"><i class="bi bi-cart"></i></div>
+                    <div class="cart-overlay" id="cart">
+                        <div class="cart-header">
+                            سبد خرید
+                            <button class="close-btn btn" onclick="toggleCart()"><i class="bi bi-x"></i></button>
+                        </div>
+                        <div class="cart-items">
+                            <ul id="cart-items">
+                            </ul>
+                        </div>
+                        <div class="cart-footer">
+                            <p id="total-price">قیمت کل: 0 تومان</p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="article-btn">
+                    <a href="#" class="btn">مشاهده تمام محصولات</a>
+                </div>
+
+            </section>
+        </section>
+
+        <!-- Banner -->
+        <section class="section-center">
+            <article class="Banner_article">
+                <div class="banner_pic">
+                    <a href="#"><img src="./img/Banner/mobileBanner.png" alt="Banner_phone"></a>
+                </div>
+
+                <div class="banner_pic">
+                    <a href="#"><img src="./img/Banner/headphonsBanner.png" alt="Banner_phone"></a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+
+    <footer class="footer section">
+        <div class="section-center container ">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>موبایل M</h4>
+                    <ul>
+                        <li><a href="./about.html" target="_blank">درباره ما</a></li>
+                        <li><a href="#">خدمات ما</a></li>
+                        <li><a href="#">قوانین و مقررات</a></li>
+                        <li><a href="#">سوالات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>خدمات مشتریان</h4>
+                    <ul>
+                        <li><a href="#">گزارش باگ</a></li>
+                        <li><a href="#">حریم خصوصی</a></li>
+                        <li><a href="#">شرایط استفاده </a></li>
+                        <li><a href="#">رویه‌های بازگرداندن کالا</a></li>
+                        <li><a href="#">پاسخ به پرسش های متداول</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>راهنمای خرید</h4>
+                    <ul>
+                        <li><a href="#">رویه سفارش</a></li>
+                        <li><a href="#">نحوه ثبت سفارش</a></li>
+                        <li><a href="#">شیوه‌های پرداخت</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>همراه ما باشید</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- js -->
+    <script src="./js/app.js"></script>
+    <script>
+        let cart = [];
+        let totalPrice = 0;
+
+        function addToCart(productName, productPrice) {
+            cart.push({ name: productName, price: productPrice });
+            totalPrice += productPrice;
+            updateCartUI();
+        }
+
+        function removeFromCart(index) {
+            totalPrice -= cart[index].price;
+            cart.splice(index, 1);
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const cartItems = document.getElementById('cart-items');
+            const totalPriceElement = document.getElementById('total-price');
+
+            cartItems.innerHTML = '';
+
+            cart.forEach((item, index) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${item.name} - ${item.price} تومان`;
+
+                const removeButton = document.createElement('button');
+                removeButton.textContent = 'حذف';
+                removeButton.onclick = () => removeFromCart(index);
+
+                listItem.appendChild(removeButton);
+                cartItems.appendChild(listItem);
+            });
+
+            totalPriceElement.textContent = `قیمت کل: ${totalPrice} تومان`;
+        }
+
+        function toggleCart() {
+            const cartOverlay = document.getElementById('cart');
+            cartOverlay.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
